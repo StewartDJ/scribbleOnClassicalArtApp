@@ -31,7 +31,7 @@ function finishedPosition(){
 
 function draw(e) {
     if(!painting) return;
-    ctx.lineWidth = 10;
+    ctx.lineWidth = 5;
     ctx. lineCap = 'round';
     ctx.lineTo(e.clientX, e.clientY);
     ctx.stroke();
@@ -48,12 +48,12 @@ canvas.addEventListener('mousemove', draw);
 
 
 
-ctx.font = 'italic 70px impact';
+ctx.font = 'bold 40px impact';
     ctx.textAlign = 'left';
     ctx. textBaseline = 'middle';
-    ctx.fillStyle = 'white';  
-    ctx.fillText('Improve classical art by scribbling all over it! Try it with your mouse!', 300, 100); 
-
+    ctx.fillStyle = 'yellow';  
+    ctx.fillText('Improve classical art by scribbling all over it! Try it with your mouse!', 50, 50); 
+    
 });
 
 window.addEventListener('resize')
