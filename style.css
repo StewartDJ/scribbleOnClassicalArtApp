@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 10px  solid yellow;
+}
+
+body {
+    background: url('monalisa.jpg');
+    background-repeat: repeat-x;
+    
+    background-size: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#text {
+    font-size: 70px;
+    font-style: impact;
+    color: white;
+    background-color: (0, 0, 0, 50)
+}
